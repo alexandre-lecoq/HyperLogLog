@@ -60,7 +60,7 @@ namespace HyperLogLog.Tests
         }
 
         [Theory]
-        [InlineData(1500000)]
+        [InlineData(2000000)]
         public void HashedVsRandom(int realCardinality)
         {
             const int precision = 18;
